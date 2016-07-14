@@ -1,9 +1,26 @@
+body { 
+	-top: 70px; 
+}
 #header_nav {
 	border-radius: 0;
 	border: 0;
 	background-color:  yellow; /*nur so, zum Test*/
 }
-
+.row {
+	padding: 25pt;
+}
+.jumbotron {
+	padding: 15px;
+}
+#collapsable_nav {
+	font-size: 14pt;
+}
+#nav_name {
+	font-size: 32px;
+}
+h1 {
+	padding: 15pt;
+}
 /* media-queries */
 @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
  }
